@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#0f0f0f"/>
+  <path d="M115 272 Q75 252 105 212 L155 172 Q205 152 255 172 L315 202 Q355 232 325 267 L265 292 Q215 312 165 297 L115 272Z" fill="#1a1a1a" stroke="#fff" stroke-width="1"/>
+  <ellipse cx="245" cy="222" rx="55" ry="28" fill="#252525"/>
+  <text x="200" y="380" fill="#555" font-size="14" text-anchor="middle" font-family="sans-serif">React Infinity Run</text>
+</svg>

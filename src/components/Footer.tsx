@@ -1,4 +1,5 @@
 import { Zap, Instagram, Twitter, Facebook, Youtube, ArrowUp } from 'lucide-react';
+import { images } from '../utils/images';
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -76,9 +77,9 @@ export default function Footer() {
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex gap-6">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" className="h-4 opacity-20 grayscale" alt="Visa" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" className="h-6 opacity-20 grayscale" alt="Mastercard" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Mir-logo.svg" className="h-4 opacity-20 grayscale" alt="MIR" />
+            <img src={images.visa} className="h-4 opacity-20 grayscale" alt="Visa" />
+            <img src={images.mastercard} className="h-6 opacity-20 grayscale" alt="Mastercard" />
+            <img src={images.mir} className="h-4 opacity-20 grayscale" alt="MIR" />
           </div>
           
           <div className="flex flex-col items-center gap-2">

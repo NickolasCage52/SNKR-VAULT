@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Star, Quote, ChevronLeft, ChevronRight } from 'lucide-react';
+import LazyImage from './LazyImage';
 import { REVIEWS } from '../constants';
 
 export default function SocialProof() {
@@ -61,7 +62,7 @@ export default function SocialProof() {
                 
                 <div className="flex flex-col md:flex-row gap-8 items-center md:items-start text-center md:text-left">
                   <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-accent/20 flex-shrink-0">
-                    <img src={REVIEWS[activeIndex].avatar} className="w-full h-full object-cover" />
+                    <LazyImage src={REVIEWS[activeIndex].avatar} alt={REVIEWS[activeIndex].name} className="w-full h-full object-cover" />
                   </div>
                   
                   <div className="flex-1">

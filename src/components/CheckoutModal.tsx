@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion } from 'motion/react';
 import { X, Check, CreditCard, Truck, MapPin, ShoppingBag } from 'lucide-react';
 import { CartItem } from '../types';
+import LazyImage from './LazyImage';
 
 interface CheckoutModalProps {
   isOpen: boolean;
@@ -260,7 +261,7 @@ export default function CheckoutModal({ isOpen, onClose, items, onSuccess }: Che
               {items.map((item) => (
                 <div key={`${item.id}-${item.selectedSize}`} className="flex gap-4">
                   <div className="w-16 h-16 bg-white/5 rounded-lg overflow-hidden flex-shrink-0">
-                    <img src={item.image} className="w-full h-full object-cover" />
+                    <LazyImage src={item.image} alt={item.name} className="w-full h-full object-cover" />
                   </div>
                   <div className="min-w-0">
                     <p className="text-xs font-bold truncate">{item.name}</p>

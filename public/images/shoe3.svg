@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#0d0d0d"/>
+  <path d="M110 270 Q70 250 100 210 L150 170 Q200 150 250 170 L310 200 Q350 230 330 260 L280 290 Q250 310 200 300 L110 270Z" fill="#1a1a1a" stroke="#FF3D00" stroke-width="2"/>
+  <rect x="180" y="200" width="50" height="60" rx="5" fill="#252525"/>
+  <text x="200" y="380" fill="#666" font-size="14" text-anchor="middle" font-family="sans-serif">Jordan 1 Retro</text>
+</svg>

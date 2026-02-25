@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#121212"/>
+  <path d="M100 260 Q60 240 90 200 L130 160 Q180 140 220 160 L300 180 Q340 200 320 240 L280 280 Q260 300 220 290 L100 260Z" fill="#1e1e1e" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="220" cy="220" r="40" fill="#252525"/>
+  <text x="200" y="380" fill="#555" font-size="14" text-anchor="middle" font-family="sans-serif">Ultraboost 22</text>
+</svg>

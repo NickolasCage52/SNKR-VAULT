@@ -1,5 +1,7 @@
 import { motion } from 'motion/react';
 import { Target, Users, Heart } from 'lucide-react';
+import LazyImage from './LazyImage';
+import { images } from '../utils/images';
 
 export default function About() {
   const values = [
@@ -65,9 +67,9 @@ export default function About() {
             className="relative"
           >
             <div className="aspect-[4/5] rounded-[40px] overflow-hidden border border-white/10">
-              <img 
-                src="https://picsum.photos/seed/store/800/1000" 
-                alt="Our Store"
+              <LazyImage 
+                src={images.about} 
+                alt="Магазин SNKR VAULT"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
             </div>

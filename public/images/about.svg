@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#121212"/>
+  <rect x="100" y="100" width="600" height="400" rx="20" fill="#1a1a1a"/>
+  <rect x="150" y="550" width="200" height="120" rx="10" fill="#252525"/>
+  <rect x="450" y="550" width="200" height="120" rx="10" fill="#252525"/>
+  <rect x="250" y="720" width="300" height="150" rx="10" fill="#1e1e1e"/>
+  <text x="400" y="950" fill="#444" font-size="18" text-anchor="middle" font-family="sans-serif">03078= SNKR VAULT</text>
+</svg>

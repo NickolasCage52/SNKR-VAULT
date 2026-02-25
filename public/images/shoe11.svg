@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#1a1a1a"/>
+  <path d="M125 273 Q85 253 115 213 L165 173 Q215 153 265 173 L315 203 Q355 233 325 268 L265 293 Q215 313 165 298 L125 273Z" fill="#222" stroke="#fff" stroke-width="2"/>
+  <ellipse cx="235" cy="222" rx="48" ry="26" fill="#333"/>
+  <text x="200" y="380" fill="#555" font-size="14" text-anchor="middle" font-family="sans-serif">Stan Smith</text>
+</svg>

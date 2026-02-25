@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#0c0c0c"/>
+  <path d="M112 272 Q72 252 102 212 L152 172 Q202 152 252 172 L312 202 Q352 232 322 267 L262 292 Q212 312 162 297 L112 272Z" fill="#181818" stroke="#FF3D00" stroke-width="2"/>
+  <path d="M195 205 L265 215 L270 255 L200 248 Z" fill="#252525" stroke="#FF3D00" stroke-width="1"/>
+  <text x="200" y="380" fill="#555" font-size="14" text-anchor="middle" font-family="sans-serif">LeBron XX</text>
+</svg>

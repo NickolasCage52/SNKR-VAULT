@@ -1,5 +1,7 @@
 import { motion } from 'motion/react';
 import { ArrowRight, ShieldCheck, Truck, RotateCcw, Users } from 'lucide-react';
+import LazyImage from './LazyImage';
+import { images } from '../utils/images';
 
 export default function Hero() {
   return (
@@ -79,9 +81,11 @@ export default function Hero() {
           className="relative hidden lg:block"
         >
           <div className="absolute inset-0 bg-accent/20 blur-[120px] rounded-full" />
-          <img 
-            src="https://picsum.photos/seed/hero-shoe/800/800" 
-            alt="Hero Sneaker"
+          <LazyImage 
+            src={images.hero}
+            alt="Премиальные кроссовки"
+            loading="eager"
+            decoding="async"
             className="w-full h-auto relative z-10 animate-float drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)]"
           />
           

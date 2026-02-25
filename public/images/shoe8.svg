@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#111111"/>
+  <path d="M108 270 Q68 250 98 210 L148 170 Q198 150 248 170 L308 200 Q348 230 318 265 L258 290 Q208 310 158 295 L108 270Z" fill="#1c1c1c" stroke="#808080" stroke-width="1.5"/>
+  <ellipse cx="238" cy="218" rx="52" ry="26" fill="#2d2d2d"/>
+  <text x="200" y="380" fill="#555" font-size="14" text-anchor="middle" font-family="sans-serif">Fresh Foam 1080</text>
+</svg>

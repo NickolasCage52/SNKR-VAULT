@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#181818"/>
+  <path d="M130 275 Q90 255 120 215 L170 175 Q210 155 255 170 L305 195 Q345 220 315 255 L265 285 Q225 305 180 295 L130 275Z" fill="#222" stroke="#808080" stroke-width="1.5"/>
+  <ellipse cx="235" cy="225" rx="45" ry="25" fill="#333"/>
+  <text x="200" y="380" fill="#555" font-size="14" text-anchor="middle" font-family="sans-serif">New Balance 574</text>
+</svg>

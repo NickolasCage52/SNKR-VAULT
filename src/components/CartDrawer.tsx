@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { X, Plus, Minus, Trash2, ShoppingBag, ArrowRight, Check } from 'lucide-react';
+import { X, Plus, Minus, Trash2, ShoppingBag, ArrowRight } from 'lucide-react';
+import LazyImage from './LazyImage';
 import { motion, AnimatePresence } from 'motion/react';
 import { CartItem } from '../types';
 
@@ -115,7 +116,7 @@ export default function CartDrawer({
                 items.map((item) => (
                   <div key={`${item.id}-${item.selectedSize}`} className="flex gap-4 group">
                     <div className="w-24 h-24 bg-card rounded-xl overflow-hidden flex-shrink-0">
-                      <img src={item.image} className="w-full h-full object-cover" />
+                      <LazyImage src={item.image} alt={item.name} className="w-full h-full object-cover" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="flex justify-between items-start mb-1">

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Star, ShoppingCart, Eye } from 'lucide-react';
 import { Product } from '../types';
 import { motion } from 'motion/react';
+import LazyImage from './LazyImage';
 
 interface ProductCardProps {
   product: Product;
@@ -19,9 +20,10 @@ export default function ProductCard({ product, onClick, onAddToCart }: ProductCa
     >
       {/* Image Container */}
       <div className="relative aspect-square overflow-hidden bg-[#121212]">
-        <img 
+        <LazyImage 
           src={product.image} 
           alt={product.name}
+          decoding="async"
           className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] group-hover:scale-105"
         />
         

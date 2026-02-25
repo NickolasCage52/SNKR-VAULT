@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { X, Star, ShoppingCart, ChevronLeft, ChevronRight, Check } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Product } from '../types';
+import LazyImage from './LazyImage';
 
 interface ProductModalProps {
   product: Product | null;
@@ -49,7 +50,7 @@ export default function ProductModal({ product, onClose, onAddToCart, onOneClick
           {/* Left: Gallery */}
           <div className="w-full md:w-1/2 bg-[#121212] p-6 flex flex-col gap-4">
             <div className="relative aspect-square rounded-2xl overflow-hidden group">
-              <img 
+              <LazyImage 
                 src={allImages[activeImage]} 
                 alt={product.name}
                 className="w-full h-full object-cover"
@@ -78,7 +79,7 @@ export default function ProductModal({ product, onClose, onAddToCart, onOneClick
                     activeImage === idx ? 'border-accent' : 'border-transparent opacity-50 hover:opacity-100'
                   }`}
                 >
-                  <img src={img} className="w-full h-full object-cover" />
+                  <LazyImage src={img} alt={product.name} className="w-full h-full object-cover" />
                 </button>
               ))}
             </div>

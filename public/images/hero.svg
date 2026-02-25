@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" fill="none">
+  <rect width="800" height="800" fill="#0a0a0a"/>
+  <path d="M200 520 Q120 480 180 380 L260 300 Q340 260 440 280 L620 320 Q700 360 660 440 L540 560 Q460 600 360 580 L200 520Z" fill="#1a1a1a" stroke="#FF3D00" stroke-width="4"/>
+  <ellipse cx="440" cy="420" rx="120" ry="60" fill="#252525" opacity="0.6"/>
+  <text x="400" y="750" fill="#444" font-size="24" text-anchor="middle" font-family="sans-serif">SNKR VAULT</text>
+</svg>

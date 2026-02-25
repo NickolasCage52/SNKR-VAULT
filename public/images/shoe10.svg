@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#131313"/>
+  <path d="M118 270 Q78 250 108 210 L158 170 Q208 150 258 170 L318 200 Q358 230 328 265 L268 290 Q218 310 168 295 L118 270Z" fill="#1e1e1e" stroke="#FF3D00" stroke-width="1.5"/>
+  <circle cx="238" cy="225" r="42" fill="#282828"/>
+  <text x="200" y="380" fill="#555" font-size="14" text-anchor="middle" font-family="sans-serif">Nitro Elite</text>
+</svg>

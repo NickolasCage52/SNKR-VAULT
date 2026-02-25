@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Search as SearchIcon, X, ArrowRight } from 'lucide-react';
+import LazyImage from './LazyImage';
 import { Product } from '../types';
 import { PRODUCTS } from '../constants';
 
@@ -69,7 +70,7 @@ export default function SearchOverlay({ isOpen, onClose, onProductClick }: Searc
                 className="w-full p-6 bg-white/5 hover:bg-white/10 rounded-2xl flex items-center gap-6 transition-all group"
               >
                 <div className="w-20 h-20 rounded-xl overflow-hidden bg-white/5">
-                  <img src={product.image} className="w-full h-full object-cover" />
+                  <LazyImage src={product.image} alt={product.name} className="w-full h-full object-cover" />
                 </div>
                 <div className="text-left">
                   <p className="text-xs font-bold text-accent uppercase tracking-widest mb-1">{product.brand}</p>

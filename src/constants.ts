@@ -1,4 +1,5 @@
 import { Product } from './types';
+import { images } from './utils/images';
 
 export const PRODUCTS: Product[] = [
   {
@@ -13,7 +14,7 @@ export const PRODUCTS: Product[] = [
     reviews: 234,
     sizes: [38,39,40,41,42,43,44,45],
     colors: ["#000000","#FFFFFF","#FF3D00"],
-    image: "https://picsum.photos/seed/shoe1/400/400",
+    image: images.shoe(1),
     description: "Максимальный комфорт для повседневной носки. Инновационная вставка Air обеспечивает мягкую амортизацию при каждом шаге.",
     quizTags: {
       purpose: ["lifestyle","walking"],
@@ -34,7 +35,7 @@ export const PRODUCTS: Product[] = [
     reviews: 412,
     sizes: [39,40,41,42,43,44],
     colors: ["#FFFFFF","#000000"],
-    image: "https://picsum.photos/seed/shoe2/400/400",
+    image: images.shoe(2),
     description: "Энергия, которая возвращается. Кроссовки для бега с технологией Boost для максимальной отдачи.",
     quizTags: {
       purpose: ["running"],
@@ -55,7 +56,7 @@ export const PRODUCTS: Product[] = [
     reviews: 876,
     sizes: [40,41,42,43,44,45],
     colors: ["#FF3D00","#000000","#FFFFFF"],
-    image: "https://picsum.photos/seed/shoe3/400/400",
+    image: images.shoe(3),
     description: "Легенда баскетбольных площадок. Классический силуэт, который никогда не выйдет из моды.",
     quizTags: {
       purpose: ["basketball","lifestyle"],
@@ -76,7 +77,7 @@ export const PRODUCTS: Product[] = [
     reviews: 198,
     sizes: [37,38,39,40,41,42,43],
     colors: ["#808080","#FFFFFF"],
-    image: "https://picsum.photos/seed/shoe4/400/400",
+    image: images.shoe(4),
     description: "Винтажный стиль 80-х. Идеальный выбор для тех, кто ценит классику и комфорт.",
     quizTags: {
       purpose: ["lifestyle","walking"],
@@ -97,7 +98,7 @@ export const PRODUCTS: Product[] = [
     reviews: 143,
     sizes: [38,39,40,41,42,43],
     colors: ["#FF3D00","#000000"],
-    image: "https://picsum.photos/seed/shoe5/400/400",
+    image: images.shoe(5),
     description: "Футуристичный дизайн и передовые технологии амортизации для интенсивных тренировок.",
     quizTags: {
       purpose: ["lifestyle"],
@@ -118,7 +119,7 @@ export const PRODUCTS: Product[] = [
     reviews: 321,
     sizes: [39,40,41,42,43,44,45],
     colors: ["#000000","#FFFFFF"],
-    image: "https://picsum.photos/seed/shoe6/400/400",
+    image: images.shoe(6),
     description: "Максимальная поддержка и амортизация для ежедневных пробежек.",
     quizTags: {
       purpose: ["running","training"],
@@ -139,7 +140,7 @@ export const PRODUCTS: Product[] = [
     reviews: 167,
     sizes: [37,38,39,40,41,42,43,44],
     colors: ["#FFFFFF","#000000"],
-    image: "https://picsum.photos/seed/shoe7/400/400",
+    image: images.shoe(7),
     description: "Баскетбольная классика 80-х с характерным ремешком для фиксации стопы.",
     quizTags: {
       purpose: ["lifestyle","walking"],
@@ -160,7 +161,7 @@ export const PRODUCTS: Product[] = [
     reviews: 289,
     sizes: [40,41,42,43,44,45],
     colors: ["#000000","#808080"],
-    image: "https://picsum.photos/seed/shoe8/400/400",
+    image: images.shoe(8),
     description: "Премиальные кроссовки для бега с исключительной амортизацией.",
     quizTags: {
       purpose: ["running"],
@@ -181,7 +182,7 @@ export const PRODUCTS: Product[] = [
     reviews: 201,
     sizes: [41,42,43,44,45],
     colors: ["#FF3D00","#000000"],
-    image: "https://picsum.photos/seed/shoe9/400/400",
+    image: images.shoe(9),
     description: "Самые легкие кроссовки в линейке Леброна, созданные для скорости и мощи.",
     quizTags: {
       purpose: ["basketball"],
@@ -202,7 +203,7 @@ export const PRODUCTS: Product[] = [
     reviews: 119,
     sizes: [38,39,40,41,42,43],
     colors: ["#FFFFFF","#FF3D00"],
-    image: "https://picsum.photos/seed/shoe10/400/400",
+    image: images.shoe(10),
     description: "Легкость и отзывчивость для ваших лучших тренировок.",
     quizTags: {
       purpose: ["training","running"],
@@ -223,7 +224,7 @@ export const PRODUCTS: Product[] = [
     reviews: 542,
     sizes: [36,37,38,39,40,41,42,43,44],
     colors: ["#FFFFFF"],
-    image: "https://picsum.photos/seed/shoe11/400/400",
+    image: images.shoe(11),
     description: "Легендарный теннисный силуэт, ставший иконой уличного стиля.",
     quizTags: {
       purpose: ["lifestyle","walking"],
@@ -244,7 +245,7 @@ export const PRODUCTS: Product[] = [
     reviews: 378,
     sizes: [39,40,41,42,43,44,45],
     colors: ["#808080","#FFFFFF","#000000"],
-    image: "https://picsum.photos/seed/shoe12/400/400",
+    image: images.shoe(12),
     description: "Золотой стандарт комфорта и качества ручной работы.",
     quizTags: {
       purpose: ["lifestyle","walking","running"],
@@ -263,7 +264,7 @@ export const REVIEWS = [
     rating: 5,
     text: "Лучший магазин кроссовок! Заказал Jordan 1, привезли на следующий день. Оригинал 100%, проверил по всем чекам.",
     product: "Jordan 1 Retro High",
-    avatar: "https://picsum.photos/seed/user1/100/100"
+    avatar: images.avatar(1)
   },
   {
     id: 2,
@@ -272,7 +273,7 @@ export const REVIEWS = [
     rating: 5,
     text: "Очень удобный квиз, помог выбрать кроссовки для бега. Ultraboost просто космос, ноги не устают совсем.",
     product: "Ultraboost 22",
-    avatar: "https://picsum.photos/seed/user2/100/100"
+    avatar: images.avatar(2)
   },
   {
     id: 3,
@@ -281,6 +282,6 @@ export const REVIEWS = [
     rating: 4,
     text: "Хороший выбор и цены. Единственное, коробка была немного помята при доставке, но сами кроссовки в идеале.",
     product: "New Balance 550",
-    avatar: "https://picsum.photos/seed/user3/100/100"
+    avatar: images.avatar(3)
   }
 ];

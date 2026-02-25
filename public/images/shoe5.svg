@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#141414"/>
+  <path d="M100 265 Q65 245 95 205 L145 165 Q195 145 245 165 L305 195 Q345 225 315 260 L255 285 Q205 305 150 290 L100 265Z" fill="#1c1c1c" stroke="#FF3D00" stroke-width="2"/>
+  <path d="M200 210 L260 220 L265 250 L205 245 Z" fill="#2a2a2a"/>
+  <text x="200" y="380" fill="#555" font-size="14" text-anchor="middle" font-family="sans-serif">RS-X Reinvention</text>
+</svg>
